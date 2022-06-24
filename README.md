@@ -1,3 +1,4 @@
+# Legend Artis's Beginner Cryptographer Portfolio
 - 👋 Hi, I’m Legend Artis. I've graduated from Arizona State University in December 2019, and earned a Bachelor's degree in Applied Mathematics with an emphasis on software programming.
 
 - 👀 I’m interested in anything related to mathematics and computers. I've been learning computer architecture as a teen, building computers for friends and family for fun!
