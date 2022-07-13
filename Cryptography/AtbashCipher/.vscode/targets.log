@@ -1,0 +1,386 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jul 12 17:17:16 2022
+
+# Variables
+
+# makefile (from 'Makefile', line 18)
+OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 17)
+SRC = $(wildcard $(SRCDIR)/*$(EXT))
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# makefile (from 'Makefile', line 12)
+EXT = .cpp
+# makefile (from 'Makefile', line 26)
+WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+# makefile (from 'Makefile', line 14)
+OBJDIR = obj
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_CWD = /home/legend
+# makefile (from 'Makefile', line 22)
+DELOBJ = $(OBJ)
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/100/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/legend/Documents/Github_main/Cryptography/AtbashCipher
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/legend/.config/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.Y2JYO1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 19)
+DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
+# makefile
+CURDIR := /home/legend/Documents/Github_main/Cryptography/AtbashCipher
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 14272
+# environment
+XDG_SESSION_TYPE = wayland
+# makefile (from 'Makefile', line 11)
+APPNAME = Atbash
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SESSION_MANAGER = local/legend-VirtualBox:@/tmp/.ICE-unix/1479,unix/legend-VirtualBox:/tmp/.ICE-unix/1479
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# environment
+IM_CONFIG_CHECK_ENV = 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = HPGRv-3obL64DAbkN6BREC4tjHme3eocRAEHZh2CLdwL5lgNA-vZ
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/legend/snap/code/common
+# environment
+SNAP = /snap/code/100
+# environment
+INVOCATION_ID = 546db6ee69774c31835956a71c94ab40
+# environment
+SNAP_REVISION = 100
+# environment
+SNAP_REAL_HOME = /home/legend
+# environment
+USERNAME = legend
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = legend
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile (from 'Makefile', line 25)
+EXE = .exe
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 1518
+# makefile (from 'Makefile', line 21)
+RM = rm
+# environment
+DISPLAY = :0
+# environment
+USER = legend
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/100
+# environment
+SNAP_CONTEXT = HPGRv-3obL64DAbkN6BREC4tjHme3eocRAEHZh2CLdwL5lgNA-vZ
+# makefile (from 'Makefile', line 8)
+LDFLAGS = 
+# environment
+MANAGERPID = 1327
+# makefile (from 'Makefile', line 24)
+DEL = del
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 14229
+# environment
+_ = /snap/code/100/usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/legend/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+JOURNAL_STREAM = 8:22454
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/legend
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ef5c6b80-1.69.0-main.sock
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/100/usr/share/glib-2.0/schemas
+# makefile (from 'Makefile', line 13)
+SRCDIR = /home/legend/Documents/atbash
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = 92d25e35
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# makefile (from 'Makefile', line 7)
+CXXFLAGS = -std=c++11 -Wall
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 6)
+CC = g++
+# environment
+SNAP_USER_DATA = /home/legend/snap/code/100
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=132/1024=13%, Rehash=0, Collisions=7/185=4%
+
+# Pattern-specific Variable Values
+ 
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2051, inode 663777): 9 files, no impossibilities.
+# /home/legend/Documents/atbash: could not be stat'd.
+
+# 9 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.d: /home/legend/Documents/atbash/%.cpp
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+obj/%.o: /home/legend/Documents/atbash/%.cpp
+#  recipe to execute (from 'Makefile', line 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+cleandepw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	$(DEL) $(DEP)
+
+cleandep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	$(RM) $(DEP)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 16:10:57.427922518
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: Atbash
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+cleanw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 64):
+	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
+
+Atbash:
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-12 16:17:48.56025112
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 36):
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
+.PHONY: clean cleandep cleanw cleandepw
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/34=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 23 / storage = 225 B / avg = 9 B
+# current buf: size = 8162 B / used = 225 B / count = 23 / avg = 9 B
+
+# strcache performance: lookups = 48 / hit rate = 52%
+# hash-table stats:
+# Load=23/8192=0%, Rehash=0, Collisions=0/48=0%
+# Finished Make data base on Tue Jul 12 17:17:16 2022
+
+ 

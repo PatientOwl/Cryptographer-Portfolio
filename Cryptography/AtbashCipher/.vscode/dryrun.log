@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/legend/Documents/Github_main/Cryptography/AtbashCipher'
+g++ -std=c++11 -Wall -o Atbash  
+make: Leaving directory '/home/legend/Documents/Github_main/Cryptography/AtbashCipher'
+ 

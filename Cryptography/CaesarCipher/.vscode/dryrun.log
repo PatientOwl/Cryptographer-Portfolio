@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/legend/Documents/Github_main/Cryptography/CaesarCipher'
+ 
+g++ -std=c++11 -Wall -o obj/main.o -c /home/legend/Documents/Github_main/Cryptography/CaesarCipher/main.cpp
+g++ -std=c++11 -Wall -o Caesar obj/main.o 
+make: Leaving directory '/home/legend/Documents/Github_main/Cryptography/CaesarCipher'
+ 

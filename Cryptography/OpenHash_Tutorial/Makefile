@@ -8,9 +8,9 @@ CXXFLAGS = -std=c++11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = Caesar
+APPNAME = OpenHash_Tutorial
 EXT = .cpp
-SRCDIR = /home/legend/Documents/CaesarCipher
+SRCDIR = /home/legend/Documents/Github_main/Cryptography/OpenHash_Tutorial
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############
